@@ -21,7 +21,7 @@ public class tuAmigableVecino {
         int contador = teclat.nextInt();
         int count = 1;
      
-        
+        /* amb aquest loop lo diem que mentres el count sigui mes petit que contador que fagi una altra volta fins a ser igual que el loop */
         while (count <= contador) {
             int s = teclat.nextInt();
             int a = teclat.nextInt();
