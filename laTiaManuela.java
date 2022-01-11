@@ -47,30 +47,6 @@ public class laTiaManuela {
 
             /* No funciona correctament */
         
-
-            /*if (joguinaCostat1 >= caixaCostat1){ //costat 1
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat2){
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat3){
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat1){ //costat 2
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat2){
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat3){
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat1){ //costat 3
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat2){
-                System.out.println("NO SIRVE");
-            } else if (joguinaCostat1 >= caixaCostat3){
-                System.out.println("NO SIRVE");
-            } else {
-                System.out.println("SIRVE");
-            } */
-
-
             if (joguinaCostat1 >= caixaCostat1 && joguinaCostat1 >= caixaCostat2 &&
             joguinaCostat1 >= caixaCostat3) {
             System.out.println("NO SIRVE");
@@ -83,6 +59,8 @@ public class laTiaManuela {
             } else {
             System.out.println("SIRVE");
             }
+
+            count ++;
         }
         
     }   
