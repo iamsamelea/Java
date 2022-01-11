@@ -46,44 +46,45 @@ public class laTiaManuela {
             int caixaCostat3 = teclat.nextInt();
 
             /* No funciona correctament */
-            if (joguinaCostat1 < caixaCostat1) { // Joguina costat 1
-                System.out.println("SIRVE");
-            } else if (joguinaCostat1 < caixaCostat2) {
-                System.out.println("SIRVE");
-            } else if (joguinaCostat1 < caixaCostat3) {
-                System.out.println("SIRVE");
-            } else if (joguinaCostat2 < caixaCostat1) { // Joguina costat 2
-                System.out.println("SIRVE");
-            } else if (joguinaCostat2 < caixaCostat2) {
-                System.out.println("SIRVE");
-            } else if (joguinaCostat2 < caixaCostat3) {
-                System.out.println("SIRVE");
-            } else if (joguinaCostat3 < caixaCostat1) { // Joguina costat 3
-                System.out.println("SIRVE");
-            } else if (joguinaCostat3 < caixaCostat2) {
-                System.out.println("SIRVE");
-            } else if (joguinaCostat3 < caixaCostat3) {
-                System.out.println("SIRVE");
-            } else {
+        
+
+            /*if (joguinaCostat1 >= caixaCostat1){ //costat 1
                 System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat2){
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat3){
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat1){ //costat 2
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat2){
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat3){
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat1){ //costat 3
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat2){
+                System.out.println("NO SIRVE");
+            } else if (joguinaCostat1 >= caixaCostat3){
+                System.out.println("NO SIRVE");
+            } else {
+                System.out.println("SIRVE");
+            } */
+
+
+            if (joguinaCostat1 >= caixaCostat1 && joguinaCostat1 >= caixaCostat2 &&
+            joguinaCostat1 >= caixaCostat3) {
+            System.out.println("NO SIRVE");
+            } else if (joguinaCostat2 >= caixaCostat1 && joguinaCostat2 >= caixaCostat2
+            && joguinaCostat2 >= caixaCostat3) {
+            System.out.println("NO SIRVE");
+            } else if (joguinaCostat3 >= caixaCostat1 && joguinaCostat3 >= caixaCostat2
+            && joguinaCostat3 >= caixaCostat3) {
+            System.out.println("NO SIRVE");
+            } else {
+            System.out.println("SIRVE");
             }
-
-            count++;
-
-            /*
-             * if (joguinaCostat1 < caixaCostat1 || joguinaCostat1 < caixaCostat2 ||
-             * joguinaCostat1 < caixaCostat3) {
-             * System.out.println("SIRVE");
-             * } else if (joguinaCostat2 < caixaCostat1 || joguinaCostat2 < caixaCostat2
-             * || joguinaCostat2 < caixaCostat3) {
-             * System.out.println("SIRVE");
-             * } else if (joguinaCostat3 < caixaCostat1 || joguinaCostat3 < caixaCostat2
-             * || joguinaCostat3 < caixaCostat3) {
-             * System.out.println("SIRVE");
-             * } else {
-             * System.out.println("NO SIRVE");
-             */
         }
-
-    }
+        
+    }   
 }
+
