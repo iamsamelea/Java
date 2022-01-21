@@ -45,9 +45,8 @@ public class capicua {
        */
 
       BigInteger deu = new BigInteger("10");
-      BigInteger calcul1 = deu.pow((dada - 1) / 2); // Fórmula per a calcular els dígits, dins del pow del BigInteger
-                                                    // nomes poden ser dades de tipus
-                                                    // primitius
+      BigInteger calcul1 = deu.pow((dada - 1) / 2); // paert dela formula per a calcular els dígits, dins del pow del BigInteger
+                                                    // nomes poden ser dades de tipus primitius. Perusar pow entre parèntesi psem el exponent, que ha de serenter
       BigInteger calcul2 = new BigInteger("9");
       BigInteger capicues = new BigInteger("10"); // Aquesta és la variable que mostrará al resultat de números capicues
                                                   // d'un digit
@@ -67,6 +66,7 @@ public class capicua {
         capicues = calcul1.multiply(calcul2); // Aquesta es la sintaxi per a multiplicar numeros de tipus BinInteger, li
                                               // diem que calcul1 es multipliqui per el valor dins del parèntesis que en
                                               // aquest cas es calcul2 i ens tornarà un valor de tipus BigInteger.
+                                                // capicues guardarà calcul1*calcul2.
       }
 
       System.out.println(capicues); // Imprimim per pantalla el resultat final que s'ha emmagatzemat a la variable
