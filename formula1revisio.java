@@ -9,9 +9,10 @@ public class formula1revisio {
     int numeroPilots = teclat.nextInt();
     int quantitatPilots = 1;
 
+    /* Llegir el número d’entrenos E (entrenos) */
+    int entrenos = teclat.nextInt();
+
     while (quantitatPilots <= numeroPilots) {
-      /* Llegir el número d’entrenos E (entrenos) */
-      int entrenos = teclat.nextInt();
 
       /* Nom del Pilot */
       String nomPilot = teclat.next();
@@ -48,7 +49,6 @@ public class formula1revisio {
       System.out.println("Percentatge d'entrenos BO: " + percent + "%");
 
       quantitatPilots++;
-
     }
   }
 }
